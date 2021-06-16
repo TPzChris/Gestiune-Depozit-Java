@@ -1,0 +1,222 @@
+/*
+#0e110e = dark dark green
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+#header-wrap{ position:absolute;}
+body{
+ //background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("000-1068x534.jpg"); 
+ background-image: url("download.png");
+ height: 100%;
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+ height: 100%;
+ margin-left: 10%;
+}
+
+.menu {
+ margin: 40px;
+ padding: 0px;
+ list-style: none;
+ font-family: arial;
+}
+
+.menu li, .categBtn {
+ float: left;
+ width: 200px;
+ height: 40px;
+ background-color: #0e110e;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+}
+
+
+
+.menu li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+.menu li a:hover {
+ background-color: green;
+}
+
+.menu li ul li{
+ display: none;
+}
+
+.menu li:hover ul li{
+ display: block;
+}
+
+#guest {
+ float: right;
+ width: 200px;
+ height: 60px;
+ background-color: #0e110e;
+ opacity: .8;
+}
+#guest strong{
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+
+
+#user {
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+ font-family: arial;
+}
+
+#user li, #btnClienti, #profileBtn, .categBtn, #btnFilter{
+ float: left;
+ width: 80px;
+ height: 40px;
+ background-color: #0e110e;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+}
+
+#user li a, #profileBtn, #btnClienti, #logoutBtn, .categBtn, #btnFilter{
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+#user li a:hover, #profileBtn:hover, #btnClienti:hover, #logoutBtn:hover, .categBtn:hover, #btnFilter:hover{
+ background-color: green;
+}
+
+#user li ul li{
+ display: none;
+}
+
+#user li:hover ul li {
+ display: block;
+}
+
+#logout{
+    position: absolute;
+    margin: 5%;
+}
+
+.clienti{
+    background-color: gray;
+    position: absolute;
+    margin-top: 10%;
+    height: fit-content;
+}
+
+.clienti table{
+  width: 100%;
+  margin: 0;
+  margin-top: -50px;
+}
+
+ul li.active a, #profileBtn.active a, #btnClienti.active a, .categBtn.active a, #btnFilter.active a {
+    background-color: #003300;
+    color: white;
+}
+
+ul li ul li.active a {
+    background-color: #003300;
+    color: white ;
+}
+
+#clienti li {
+ float: right;
+ width: 80px;
+ height: 40px;
+ background-color: #0e110e;
+ opacity: .8;
+ line-height: 40px;
+ text-align: center;
+ font-size: 20px;
+}
+
+#user li a {
+ text-decoration: none;
+ color: white;
+ display: block;
+}
+
+
+#clientiDiv {
+    border: 3px solid black;
+    width: 620px; 
+}
+table#child2 {    
+    background: cyan; 
+    table-layout:fixed;
+    width: 100%;       
+}
+table#child2 td {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+#btnClienti, .frm button, .categBtn, #btnFilter {
+    border: none;
+    width: 200px;    
+}
+
+#profileBtn, #btnFilter {
+    border: none;
+}
+
+li.active #clienti #btnClienti, .categBtn, #btnFilter {
+    background-color: #003300;
+    color: white;  
+    list-style: none;
+}
+
+li.active #clienti #profileBtn {
+    background-color: #003300;
+    color: white;    
+}
+
+
+#logoutBtn, .categBtn {
+    background-color: #0e110e;
+    opacity: .8;
+    border: none;
+    
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+.menudiv {
+    background-color: #0e110e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
+
